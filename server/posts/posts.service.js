@@ -9,7 +9,9 @@ const axios = require('axios').default;
  * @returns {Promise<Array>} - A promise that resolves to an array of posts.
  */
 async function fetchPosts(params) {
-  const { start = 0, limit = 10 } = params || {};
+  //console.log('in service', params.start, ' ', params.limit);
+  const { start, limit } = params || {};
+  //console.log('start ', start, ' limit ', limit);
   const { data: posts } = await axios.get(
     'https://jsonplaceholder.typicode.com/posts?limit',
     {
