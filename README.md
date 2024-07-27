@@ -7,6 +7,7 @@
 - [x] Displayed the user's name and email in each post. Show the first letter for both the first and last names.
       
 ![image](https://github.com/user-attachments/assets/0f1646ee-cf16-4098-a43a-fc4adf5082c5)
+![image](https://github.com/user-attachments/assets/c4d960c0-13ca-40b4-8923-686366193e86)
 
 - [x] Converted `UserList` React class component to functional component and convert `witUserData` HOC (Higher order Component) to a custom React hooks
 - [x] Converted `useWindowWidth` hook to ContextAPI. Declared the ContextAPI globally and access the `isSmallerDevice` property.
